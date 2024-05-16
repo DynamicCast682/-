@@ -1,0 +1,93 @@
+
+
+\documentclass[a4paper, oneside, final]{scrartcl}
+\usepackage{scrlayer-scrpage} 
+\usepackage{titlesec} 
+\usepackage{marvosym} 
+\usepackage{tabularx,colortbl} 
+\usepackage{ebgaramond} 
+\usepackage{microtype} 
+\usepackage[T1, T2A]{fontenc}
+\usepackage[russian,english]{babel}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] 
+
+\pagestyle{scrheadings} 
+\addtolength{\voffset}{-0.5in} 
+\addtolength{\textheight}{3cm} 
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} 
+
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape}
+
+\cofoot{
+\fontsize{12.5}{17}\selectfont
+
+
+{\Large\Letter} \textls[150]{mmkarpov@edu.hse.com \ {\Large\Telefon} (000) 111-1111}
+}
+
+
+
+\begin{document}
+
+\begin{center}
+
+
+
+{\fontsize{36}{36}\selectfont\scshape\textls[200]{Карпов Максим}} 
+
+\vspace{1.5cm} 
+
+\section{Цель}
+
+Должность в области компьютерных технологий со специальными интересами в
+области программирования бизнес-приложений, обработки информации и систем управления
+
+
+\section{Опыт работы}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Период & \textbf{Март 2026 --- Настоящее время}\\
+\gray Работодатель & \textbf{Yandex} \\
+\gray Должность & \textbf{Python Analyst programmer}\\
+\gray Языки & \textbf{Python}\\
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Период & \textbf{Май 2023 --- Август 2025}\\
+\gray Работодатель & \textbf{Tinkoff} \\
+\gray Должность & \textbf{Python BIGDATA Analyst programmer}\\
+\end{tabularx}
+
+
+
+\section{Образование}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Период & \textbf{Январь 2018 --- Февраль 2022}\\
+\gray Диплом & \textbf{Компьютерные науки и анализ данных}\\
+\gray Университет & \textbf{Высшая Школа Экономики} \hfill Моксва, Россия\\
+
+\end{tabularx}
+
+\vspace{12pt}
+
+
+\section{Навыки}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Языки программирования & Python, C++, JavaScript \\
+Протоколы \& APIs & XML, JSON, SOAP, REST \\
+Базыданных & MySQL, PostgreSQL, Microsoft SQL \\
+Инструменты & SVN, Vim, Emacs
+\end{tabular}
+
+
+
+\end{center}
+
+\end{document}
